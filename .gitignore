@@ -1,0 +1,20 @@
+# ignora directory e sottodirectory della cartella tmp
+tmp/**/*
+# ignora tutti i file contenuti nella cartella logs
+logs/
+# ignora tutti i file HTML
+*.html
+# tranne index.html
+!index.html
+# ignora il file DOC nella ROOT, non la cartella DOC
+/DOC
+# ignora tutti i file PHP della cartella test ma non nelle sottodirectory
+test/*.php
+# ignora tutti i file PHP della cartella test comprese le sottodirectory
+test/**/*.php
+
+.idea/**/*
+
+target/**/*
+
+*.iml
