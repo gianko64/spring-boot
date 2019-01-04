@@ -25,14 +25,17 @@ public class User {
     private String id;
 
     @Column(name = "USERNAME")
+    @NotEmpty @NotBlank
     @Getter @Setter
     private String username;
 
     @Column(name = "PASSWORD")
+    @NotEmpty @NotBlank
     @Getter @Setter
     private String password;
 
     @Column(name = "PERMISSION")
+    @NotEmpty @NotBlank
     @Getter @Setter
     private String permission;
 /*
