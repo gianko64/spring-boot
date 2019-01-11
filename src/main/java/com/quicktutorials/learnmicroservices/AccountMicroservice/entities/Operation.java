@@ -27,13 +27,13 @@ public class Operation {
     @NotNull
     private Date date;
 
-    @Column(name="VALUE")
-    @Getter @Setter
-    private Double value;
-
     @Column(name="DESCRIPTION")
     @Getter @Setter
     private String description;
+
+    @Column(name="VALUE")
+    @Getter @Setter
+    private Double value;
 
     @Column(name="FK_ACCOUNT1")
     @Getter @Setter
